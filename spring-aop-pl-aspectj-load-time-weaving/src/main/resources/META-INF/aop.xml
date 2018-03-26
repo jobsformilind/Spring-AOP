@@ -1,0 +1,13 @@
+<!DOCTYPE aspectj PUBLIC
+        "-//AspectJ//DTD//EN" "http://www.eclipse.org/aspectj/dtd/aspectj.dtd">
+<aspectj>
+
+	<weaver>
+		<include within="com.test.spring.aop.aspect.load_time_weaving..*" />
+	</weaver>
+
+	<aspects>
+		<aspect name="com.test.spring.aop.aspect.load_time_weaving.aspect.DemoAspect" />
+	</aspects>
+
+</aspectj>
